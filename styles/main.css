@@ -1,12 +1,11 @@
 main {
   background-image: url(../assets/images/Background_Intro.png);
   background-repeat: no-repeat;
-  height: 750px;
   background-size: cover;
   background-position: center;
 
   #intro {
-    padding-block: 120px 94px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +45,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
-  margin-block: 80px 94px;
+  margin-top: 80px;
 
   &>span {
     display: inline-flex;
@@ -64,4 +63,8 @@ main {
       width: 24px;
     }
   }
+}
+
+.caret {
+  margin-block: 94px 57px;
 }
