@@ -1,12 +1,12 @@
-.text-2xl {
+.title-lg {
+  font: var(--h1)
+}
+
+.title-md {
   font: var(--h2)
 }
 
-.text-xl {
-  font: var(--h2)
-}
-
-.text-lg {
+.title-sm {
   font: var(--h3);
 }
 
