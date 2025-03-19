@@ -1,0 +1,7 @@
+main {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-repeat: no-repeat;
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+}
