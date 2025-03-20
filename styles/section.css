@@ -1,3 +1,21 @@
+section {
+  #titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+    gap: 8px;
+
+    &>h3 {
+      color: var(--red);
+    }
+
+    &>h2 {
+      color: var(--gray-600);
+    }
+  }
+}
+
 #my-work {
   background-color: var(--gray-200);
   display: flex;
@@ -6,33 +24,21 @@
   align-items: center;
   padding-block: 72px 144px;
 
-  #titles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 56px;
-    gap: 8px;
 
-    h3 {
-      color: var(--red);
-    }
-
-    h2 {
-      color: var(--gray-600);
-    }
-  }
 
   #cards {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 1040px;
+    width: 100%;
     gap: 24px;
+    padding-inline: 80px;
   }
 
   #card {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 330px;
     height: 280px;
     gap: 20px;
@@ -53,7 +59,7 @@
       flex-direction: column;
       gap: 8px;
       margin-inline: 16px;
-      
+
     }
 
     h3 {
@@ -64,5 +70,52 @@
       color: var(--gray-500);
     }
 
+  }
+}
+
+#business {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+
+  background-color: var(--gray-100);
+  padding: 88px 120px 120px;
+
+  #cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  #card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 280px;
+    padding: 20px;
+    gap: 20px;
+
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+  }
+
+  #card-info {
+    h3 {
+      padding-bottom: 8px;
+    }
+  }
+
+  img {
+    height: 48px;
+  }
+
+  h3 {
+    color: var(--gray-600);
+  }
+
+  p {
+    color: var(--gray-500);
   }
 }
