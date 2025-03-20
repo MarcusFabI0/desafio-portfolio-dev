@@ -36,7 +36,7 @@ section {
 
     a:hover {
       border-radius: 12px;
-      outline: 2px solid var(--gray-400); 
+      outline: 2px solid var(--gray-400);
     }
   }
 
@@ -122,5 +122,67 @@ section {
 
   p {
     color: var(--gray-500);
+  }
+}
+
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 128px 120px 200px 120px;
+
+  #titles {
+    margin: 0;
+
+    h3 {
+      color: var(--purple);
+    }
+
+    p {
+      color: var(--gray-500);
+    }
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 400px;
+    height: 320px;
+  }
+
+  #link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    width: 400px;
+    height: 68px;
+
+    &>span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      color: var(--gray-500);
+    }
+  }
+
+  #link:hover {
+    outline: 1.5px solid var(--blue);
+
+    img {
+      filter: invert(58%) sepia(94%) saturate(2457%) hue-rotate(180deg) brightness(92%) contrast(86%);
+    }
   }
 }
