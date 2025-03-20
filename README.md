@@ -19,7 +19,7 @@ Desafio "Portfólio-Dev" para aplicar os conhecimentos adquiridos nas aulas de F
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src=".github/preview.png" width="60%">
+  <img alt="Preview do projeto desenvolvido." src=".github/Thumbnail.png" width="60%">
 </p>
 
 
