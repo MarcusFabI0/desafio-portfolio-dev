@@ -33,6 +33,11 @@ section {
     width: 100%;
     gap: 24px;
     padding-inline: 80px;
+
+    a:hover {
+      border-radius: 12px;
+      outline: 2px solid var(--gray-400); 
+    }
   }
 
   #card {

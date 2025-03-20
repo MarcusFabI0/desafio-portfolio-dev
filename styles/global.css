@@ -32,6 +32,10 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   padding-inline: 163px;
   margin-inline: auto;
